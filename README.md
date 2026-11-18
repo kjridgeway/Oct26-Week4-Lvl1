@@ -47,6 +47,10 @@ This GitHub will serve as a collection of my learning experiences, coursework, a
 
 As I continue through my certification program, I'll be adding projects that demonstrate my growth, creativity, and developing technical abilities.
 
+This particular file is for week 4.
+
+- Includes hello.js which prints "Hello World!"
+
 ---
 
 ## 🌐 Social Media & Contact
