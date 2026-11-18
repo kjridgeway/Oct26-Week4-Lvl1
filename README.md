@@ -55,9 +55,9 @@ This particular file is for week 4.
 
 ## 🌐 Social Media & Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kelli-r-617074161/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-hotpink?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kelli-r-617074161/)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/kjridgeway)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-hotpink?style=for-the-badge&logo=github)](https://github.com/kjridgeway)
 
 ---
 
