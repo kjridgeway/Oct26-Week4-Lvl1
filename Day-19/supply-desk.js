@@ -10,3 +10,5 @@ if (!deskIsOpen) {
 } else {
   console.log("More kits needed.");
 }
+
+//line 8 was missing = to make the value greater than or equal to the learnerCount. 
