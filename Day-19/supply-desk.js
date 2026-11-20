@@ -13,12 +13,12 @@ if (!deskIsOpen) {
 }
 
 // Separate decision using activityName
-if (activityName --- "Supply Desk" && kitCount >= learnerCount) {
+if (activityName === "Supply Desk" && kitCount >= learnerCount) {
   console.log("The supply desk has enough kits for all learners.");
 } else if (activityName === "Supply Desk" && kitCount < learnerCount) {
   console.log("The supply desk needs more kits.");
 } else {
-  console.log ("This activity does not require supply kits.");
+  console.log("This activity does not require supply kits.");
 }
 
 //line 8 was missing = to make the value greater than or equal to the learnerCount. If I had tested just 8, it wouldn't have exposed the issue because it would have been enough to
