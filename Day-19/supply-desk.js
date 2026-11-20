@@ -1,5 +1,5 @@
 // One comparison intentionally disagrees with the stated rule.
-const learnerCount = 7;
+const learnerCount = 7; //if learner count 6, enough kits, if learning count 7 not enough kits, if learning count 8, enough kits
 const kitCount = 7;
 const deskIsOpen = true;
 
