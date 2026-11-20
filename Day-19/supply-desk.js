@@ -13,11 +13,6 @@ if (!deskIsOpen) {
 }
 
 // Separate decision using activityName
-if (activityName === "Supply Desk") {
-  console.log("Learners can collect their kits here.");
-} else {
-  console.log("This activity does not distribute kits.");
-}
 if (activityName --- "Supply Desk" && kitCount >= learnerCount) {
   console.log("The supply desk has enough kits for all learners.");
 } else if (activityName === "Supply Desk" && kitCount < learnerCount) {
