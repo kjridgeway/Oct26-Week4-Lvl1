@@ -10,3 +10,5 @@ if (hasSeats) {
 } else {
   console.log("The activity is full.");
 }
+
+// removed === which is used for comparison to > which would make sure that hasSeats true. 
