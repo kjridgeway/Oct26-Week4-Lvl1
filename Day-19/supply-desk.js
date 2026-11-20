@@ -1,8 +1,8 @@
 // One comparison intentionally disagrees with the stated rule.
-const learnerCount = 5; //if learner count 6, enough kits, if learning count 7 not enough kits, if learning count 8, enough kits
+const learnerCount = 7; //if learner count 6, enough kits, if learning count 7 not enough kits, if learning count 8, enough kits
 const kitCount = 7;
 const deskIsOpen = true;
-const activityName = "Supply Desk";
+const activityName = "Supply";
 
 if (!deskIsOpen) {
   console.log("The desk is closed.");
