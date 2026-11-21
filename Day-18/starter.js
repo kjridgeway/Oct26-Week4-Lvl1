@@ -2,7 +2,7 @@ const activityName = "Space observation";
 const capacity = 10;
 const registered = 9;
 const seatsLeft = capacity - registered; //10-9 =1
-const hasSeats = seatsLeft > 0; //false before change from === to >, true with 10-10
+const hasSeats = seatsLeft > 0; //false before change from === to >, true with 10-10 but wrong path is sent
 
 console.log(activityName);
 if (hasSeats) {
