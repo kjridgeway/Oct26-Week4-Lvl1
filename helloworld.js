@@ -100,3 +100,6 @@ if ((10 > 9)) {
 }
 
 //next week we will merge Javascript with HTML and CSS, new tool to help us with Github and tracking changes locally.
+
+/* Functions */
+
