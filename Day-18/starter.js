@@ -12,3 +12,7 @@ if (hasSeats) {
 }
 
 // removed === which is used for comparison to > which would make sure that hasSeats true. 
+/*
+  3 Variables to start, a string and two numbers
+  next we have subtraction and a statement
+*/
