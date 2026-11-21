@@ -1,8 +1,8 @@
 const activityName = "Space observation";
 const capacity = 10;
 const registered = 9;
-const seatsLeft = capacity - registered;
-const hasSeats = seatsLeft > 0;
+const seatsLeft = capacity - registered; //10-9 =1
+const hasSeats = seatsLeft > 0; //false before change from === to >
 
 console.log(activityName);
 if (hasSeats) {
