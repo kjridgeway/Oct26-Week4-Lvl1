@@ -75,7 +75,7 @@ if (registeredPeople >= venueCapacity) {
 // == -> just the value
 console.log("Is 15 equal to 15?: ", "15" === 15);
 
-registeredPeople = 105;
+registeredPeople = 90;
 
 // if (registeredPeople > venueCapacity) {
 //   console.log("You're buying more than what we can sell");
@@ -89,7 +89,7 @@ if (registeredPeople < venueCapacity) {
   console.log("Venue is at max capacity, no more tickets");
 } else {
   console.log("Venue is over capacity, no more tickets");
-}
+} 
 
 
 // NOT statement
@@ -102,4 +102,32 @@ if ((10 > 9)) {
 //next week we will merge Javascript with HTML and CSS, new tool to help us with Github and tracking changes locally.
 
 /* Functions */
+//Functions ar ea block of reusable code
+//function -> keyword to declare a function
+//Parameters -> values that you send to the function
 
+function getSeatsLeft (capacity, registered) {
+  if (typeof capacity === "string" || typeof registered ==="string") {
+    throw Error("Incorrect type for function getSeatsLeft");
+  }
+  const seatsLeft = capacity - registered;
+  
+  return seatsLeft;
+} 
+
+//then you need to call the function
+console.log("Amount of seats left:", getSeatsLeft(200, 80));
+
+function getRegistrationStatus(capacity, registered, isOpen) {
+  const seatsLeft = capacity - registered;
+  //If isOpen is false, we say that the registration is closed
+  if (!isOpen) {
+    return "Registration is closed";
+  }else if (seatsLeft > 0) {
+    return "seats available";
+  }else {
+    return "Activity is full";
+  }
+}
+
+console.log("Are there seats available?", getRegistrationStatus(100, 90, true));
