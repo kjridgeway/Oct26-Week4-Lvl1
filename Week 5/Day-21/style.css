@@ -1,12 +1,12 @@
 /* 1. Design Tokens (Variables) */
 :root {
-  --bg-page: #f8fafc;
-  --bg-surface: #ffffff;
-  --bg-tinted: #eff6ff;
-  --text-main: #1e293b;
-  --text-muted: #64748b;
-  --accent: #2563eb;
-  --border-color: #e2e8f0;
+  --bg-page: #221238;
+  --bg-surface: #cab5ff;
+  --bg-tinted: #d4bcff;
+  --text-main: #29005f;
+  --text-muted: #6d4388;
+  --accent: #442e77;
+  --border-color: #2d004b;
   
   --radius: 12px;
   --space-sm: 12px;
@@ -89,7 +89,7 @@ main.stack > * + * {
 /* Modifier class to highlight the <aside> without duplicating .card rules */
 .card--tinted {
   background: var(--bg-tinted);
-  border-color: #bfdbfe; 
+  border-color: #4800a7; 
 } /*avoids duplication, only overrides the background and border color*/
 
 .list-spaced {
